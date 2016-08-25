@@ -1,4 +1,6 @@
 node {
+
+ stage 'Stage 1'
    echo 'We are about to pretend that some of our Jenkins run is machine specific'
    echo 'This allows us to keep our infrastucture as code clean'
    echo 'see 12factor for the basic idea of what to keep in environment variables'
