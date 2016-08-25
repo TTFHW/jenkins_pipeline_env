@@ -5,5 +5,5 @@ node {
    echo 'JAVA_HOME is printed to the screen here'
    echo 'If this had been a real project, you might use environment variables to configure a portion of your Jenkins run'
    echo 'that you didn't want to commit to source because every Jenkins server should run it differently'
-   echo 'JAVA_HOME is ${JAVA_HOME} on this machine'   
+   echo 'JAVA_HOME is ${env.JAVA_HOME} on this machine'   
 }
